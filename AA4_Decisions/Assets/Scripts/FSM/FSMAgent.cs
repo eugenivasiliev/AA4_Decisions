@@ -20,7 +20,6 @@ public class FSMAgent : MonoBehaviour
     void Update()
     {
         stateMachine.OnUpdate();
-        //Debug.Log(stateMachine.CurrentState.ToString());
     }
 
     private void OnTriggerEnter2D(Collider2D other)
