@@ -80,6 +80,10 @@ public class UtilityAgent : MonoBehaviour
                 bestScore = score;
                 currentAction = action;
             }
+            if (hunger > 99 && safety > 0)
+            {
+                currentAction = actions[0];
+            }
         }
     }
 
